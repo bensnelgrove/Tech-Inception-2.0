@@ -32,7 +32,10 @@ section, summary, time, mark, audio, video {
 
 }
 
+.career {
+border: 2px solid #49111C;
 
+}
 
 .arrow{
   position: fixed;
