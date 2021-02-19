@@ -34,18 +34,18 @@ section, summary, time, mark, audio, video {
 }
 
 .sidenav {
-  width: 240px; /* Set the width of the sidebar */
+  width: 240px;
   position: fixed;
   z-index: 1;
-  top: 30%;
+  top: 10%;
   left: 2%;
-  background-color: #EBEBEB; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
+  background-color: #EBEBEB;
+  overflow-x: hidden;
   padding-top: 10px;
 	border-radius: 12px;
 }
 
-/* The navigation menu links */
+
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -56,7 +56,7 @@ section, summary, time, mark, audio, video {
   display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
+
 .sidenav a:hover {
 	color: #333533;
 	background-color: #F6F7EB;
@@ -64,7 +64,7 @@ section, summary, time, mark, audio, video {
 
 /* Style page content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-left: 160px;
   padding: 0px 10px;
 }
 
